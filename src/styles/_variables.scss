@@ -1,0 +1,27 @@
+// 颜色变量
+$color-white: #ffffff;
+$color-black: #000000;
+$color-green: #10b981;
+
+// 透明度颜色
+$overlay-bg: rgba(0, 0, 0, 0.4);
+$footer-gradient: linear-gradient(to top, rgba(0, 0, 0, 0.4), transparent);
+
+// 文字颜色
+$text-primary: rgba(255, 255, 255, 0.95);
+$text-secondary: rgba(255, 255, 255, 0.7);
+$text-muted: rgba(255, 255, 255, 0.5);
+$text-dim: rgba(255, 255, 255, 0.4);
+$text-light: rgba(255, 255, 255, 0.6);
+
+// 阴影
+$shadow-avatar: 0 20px 40px rgba(0, 0, 0, 0.3);
+$shadow-text: 0 4px 20px rgba(0, 0, 0, 0.5);
+$shadow-text-small: 0 2px 10px rgba(0, 0, 0, 0.3);
+
+// 字体
+$font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+
+// 动画时间
+$animation-duration: 0.8s;
+$animation-delay-step: 0.1s;
