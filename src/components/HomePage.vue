@@ -125,8 +125,9 @@ onMounted(() => {
         <template v-if="config.showBuildInfo">
           <span class="footer-divider">/</span>
           <span class="build-info">
-            <span class="build-id">{{ buildInfo.commitSha }}@{{ buildInfo.branch }}</span>
-          </span>
+            <span class="build-id">
+  {{ buildInfo.commitSha.slice(0, 7) }}@{{ buildInfo.branch }}
+</span>
         </template>
       </div>
       <div class="vercel-link">

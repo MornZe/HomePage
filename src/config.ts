@@ -54,7 +54,7 @@ export const config: SiteConfig = {
   },
   social: {
     github: 'https://github.com/MornZe',
-    email: 'mailto:hello@mornze.dev'
+    email: 'mailto:mengze2@foxmail.com'
   },
   copyright: 'MornZe',
   showBuildInfo: true
