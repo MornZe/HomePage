@@ -1,6 +1,6 @@
 # HomePage
 
-## 本仓库永久停更，后续更新发布在：https://cnb.cool/MornZe-Dev/HomePage
+CNB链接：https://cnb.cool/MornZe-Dev/HomePage
 
 基于 Vue＆Sass 开发的个人主页，以极简设计语言营造私密、静谧的浏览体验，让每一次打开都是优雅的回归。
 
