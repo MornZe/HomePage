@@ -16,6 +16,13 @@ export interface SiteConfig {
   techStack: string[]
   /** 正在学习的技术 */
   learning: string
+  /** 状态行文本 */
+  statusLine?: string
+  /** 博客链接 */
+  blog?: {
+    url: string
+    label: string
+  }
   /** 社交链接 */
   social: {
     github?: string
@@ -25,6 +32,8 @@ export interface SiteConfig {
   }
   /** 页脚版权名称 */
   copyright: string
+  /** 是否显示构建信息（Git 分支 + Commit SHA） */
+  showBuildInfo?: boolean
 }
 
 export const config: SiteConfig = {
@@ -38,9 +47,15 @@ export const config: SiteConfig = {
   backgroundImage: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2070&auto=format&fit=crop',
   techStack: ['PHP', 'Vue.js', 'MySQL', 'TypeScript'],
   learning: 'Hyperf & Nuxt.js',
+  statusLine: 'online · building something quietly',
+  blog: {
+    url: 'https://blog.zeink.cc/',
+    label: '/blog'
+  },
   social: {
     github: 'https://github.com/MornZe',
     email: 'mailto:hello@mornze.dev'
   },
-  copyright: 'MornZe'
+  copyright: 'MornZe',
+  showBuildInfo: true
 }
